@@ -1,0 +1,19 @@
+name: DBt_project7
+version: 1.0.0
+config-version: 2
+profile: DBt_project7
+model-paths:
+  - models
+analysis-paths:
+  - analyses
+test-paths:
+  - tests
+seed-paths:
+  - seeds
+macro-paths:
+  - macros
+snapshot-paths:
+  - snapshots
+models:
+  DBt_project7:
+    +materialized: view

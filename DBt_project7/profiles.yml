@@ -1,0 +1,10 @@
+DBt_project7:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: SYSADMIN
+      warehouse: ALATION_POC_WH
+      database: DBT_PROJECTS_DEMO_DB
+      schema: DBT_DATA
+      threads: 8
